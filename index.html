@@ -1,100 +1,245 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naema Khalif | Cloud Computing Portfolio</title>
-    <meta name="description" content="Naema Khalif's cloud computing and technology portfolio.">
+    <meta name="description" content="Naema Khalif's portfolio showcasing cloud computing, IT, and technology projects.">
+    <title>Naema Khalif | Cloud & IT Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header class="navbar">
-        <a class="logo" href="#">NK<span>.</span></a>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+
+    <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a class="logo" href="#home">NK<span>.</span></a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a class="nav-contact" href="#contact">Let's connect ↗</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <p class="eyebrow">CLOUD COMPUTING · TECHNOLOGY · INNOVATION</p>
-            <h1>Hi, I'm <span>Naema Khalif.</span></h1>
-            <h2>Aspiring Cloud &amp; Technology Professional</h2>
-            <p class="intro">
-                I'm building my skills in cloud computing, Linux, networking,
-                and automation by turning what I learn into practical projects.
-            </p>
-            <a class="button" href="#projects">Explore My Work ↘</a>
-        </section>
-
-        <section id="about" class="section">
-            <p class="eyebrow">A LITTLE ABOUT ME</p>
-            <h2>Learning by building.</h2>
-            <p>
-                I'm passionate about understanding how technology works behind
-                the scenes. My learning journey includes Linux administration,
-                cloud platforms, networking, and infrastructure tools.
-                I enjoy solving problems and developing hands-on experience
-                through real projects.
-            </p>
-        </section>
-
-        <section id="skills" class="section">
-            <p class="eyebrow">MY TOOLKIT</p>
-            <h2>Skills I'm developing</h2>
-            <div class="skills">
-                <span>Linux &amp; Ubuntu</span>
-                <span>AWS</span>
-                <span>Networking</span>
-                <span>Git &amp; GitHub</span>
-                <span>Python</span>
-                <span>Terraform</span>
-                <span>Cloud Infrastructure</span>
-                <span>Automation</span>
-            </div>
-        </section>
-
-        <section id="projects" class="section">
-            <p class="eyebrow">WHAT I'M WORKING ON</p>
-            <h2>Featured projects</h2>
-            <div class="project-card">
-                <p class="project-number">PROJECT 01</p>
-                <h3>AWS Static Portfolio Website</h3>
-                <p>
-                    A personal portfolio built with HTML, CSS, and JavaScript,
-                    with the goal of deploying it to AWS and learning cloud
-                    hosting, permissions, and deployment workflows.
+        <section id="home" class="hero container">
+            <div class="hero-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    CLOUD COMPUTING & IT
                 </p>
-                <div class="tags">
-                    <span>HTML</span><span>CSS</span><span>AWS</span>
+
+                <h1>Hi, I'm <span>Naema Khalif.</span></h1>
+
+                <h2>Curious by nature.<br>Building my future in tech.</h2>
+
+                <p class="hero-description">
+                    I'm an IT professional growing my skills in cloud computing,
+                    automation, and infrastructure. This is where I share what
+                    I'm learning and the projects I'm building along the way.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">
+                        Explore my work <span>↗</span>
+                    </a>
+                    <a class="button button-secondary" href="#about">
+                        A little about me
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-line"></span>
+                    Learning, building, and improving one project at a time.
                 </div>
             </div>
-            <div class="project-card">
-                <p class="project-number">PROJECT 02</p>
-                <h3>Linux Practice Lab</h3>
-                <p>
-                    A hands-on Ubuntu environment for practicing terminal
-                    commands, Git, cloud CLI tools, and infrastructure basics.
-                </p>
-                <div class="tags">
-                    <span>Ubuntu</span><span>Linux</span><span>Git</span>
+
+            <div class="hero-art" aria-label="Decorative rose-colored design">
+                <div class="art-circle circle-one"></div>
+                <div class="art-circle circle-two"></div>
+                <div class="art-card">
+                    <span class="art-label">CURRENTLY EXPLORING</span>
+                    <div class="art-flower">✳</div>
+                    <h3>Cloud, code<br>& possibility.</h3>
+                    <p>Turning curiosity into practical skills.</p>
+                    <div class="art-tags">
+                        <span>AWS</span>
+                        <span>Linux</span>
+                        <span>Automation</span>
+                    </div>
+                </div>
+                <span class="art-sparkle sparkle-one">✳</span>
+                <span class="art-sparkle sparkle-two">✧</span>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container about-grid">
+                <div>
+                    <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+                    <h2 class="section-heading">
+                        Growing with<br>every <span>experience.</span>
+                    </h2>
+                </div>
+
+                <div class="about-copy">
+                    <p>
+                        My journey in technology is driven by curiosity and a
+                        desire to understand how things work behind the scenes.
+                        Through IT support, I've developed an appreciation for
+                        troubleshooting, problem-solving, and helping people
+                        use technology confidently.
+                    </p>
+                    <p>
+                        I'm now expanding that foundation into cloud computing
+                        and automation through hands-on projects. I believe the
+                        best way to learn is to build something, work through
+                        the challenges, and keep improving.
+                    </p>
+                    <a class="text-link" href="#projects">
+                        See what I'm building <span>→</span>
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section contact">
-            <p class="eyebrow">LET'S CONNECT</p>
-            <h2>Thanks for stopping by.</h2>
-            <p>I'm growing my skills one project at a time.</p>
-            <a class="button" href="https://github.com/" target="_blank" rel="noopener noreferrer">Find me on GitHub ↗</a>
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <p class="eyebrow">02 / MY TOOLKIT</p>
+                <h2 class="section-heading">
+                    Skills I'm <span>growing.</span>
+                </h2>
+                <p class="section-intro">
+                    A mix of hands-on experience and technologies I'm exploring
+                    through practice and personal projects.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">☁</div>
+                        <h3>Cloud Computing</h3>
+                        <p>AWS, S3, IAM roles, and cloud infrastructure fundamentals.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⌘</div>
+                        <h3>Linux & CLI</h3>
+                        <p>Ubuntu, terminal commands, file management, and troubleshooting.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⌥</div>
+                        <h3>DevOps & Automation</h3>
+                        <p>Git, GitHub, version control, and GitHub Actions workflows.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">{ }</div>
+                        <h3>Programming</h3>
+                        <p>Python fundamentals, scripting, and problem-solving.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <p class="eyebrow">03 / SELECTED WORK</p>
+                <h2 class="section-heading">
+                    Learning by <span>building.</span>
+                </h2>
+                <p class="section-intro">
+                    Small projects, practical skills, and progress worth sharing.
+                </p>
+
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="browser-window">
+                            <div class="browser-top">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <p>my-cloud-project</p>
+                            </div>
+                            <div class="browser-content">
+                                <div class="mock-label">CLOUD PROJECT / 001</div>
+                                <div class="mock-title">From code<br>to the cloud.</div>
+                                <div class="mock-line"></div>
+                                <div class="mock-line short"></div>
+                                <div class="mock-badges">
+                                    <span>AWS S3</span>
+                                    <span>GitHub Actions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-details">
+                        <p class="project-number">PROJECT 001 · OCTOBER 2026</p>
+                        <h3>Automated Portfolio Deployment</h3>
+                        <p>
+                            A static portfolio website hosted on Amazon S3 and
+                            deployed automatically through GitHub Actions.
+                            The workflow uses OpenID Connect (OIDC) to assume
+                            an AWS IAM role instead of storing long-term AWS
+                            access keys in GitHub.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>AWS S3</span>
+                            <span>IAM / OIDC</span>
+                            <span>GitHub Actions</span>
+                            <span>Git</span>
+                        </div>
+
+                        <a class="text-link"
+                           href="https://github.com/naemakhalif-stack/aws-static-website"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View project on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <div class="coming-soon">
+                    <span class="coming-icon">✳</span>
+                    <div>
+                        <h3>More projects are on the way.</h3>
+                        <p>Every new build is another opportunity to learn something new.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-inner">
+                <p class="eyebrow">04 / LET'S CONNECT</p>
+                <div class="contact-flower">✳</div>
+                <h2>Good things grow<br><span>with curiosity.</span></h2>
+                <p>
+                    Thanks for stopping by. I'm growing my skills one project
+                    at a time, and I'm excited about what's next.
+                </p>
+                <a class="button button-primary"
+                   href="https://github.com/naemakhalif-stack"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Find me on GitHub <span>↗</span>
+                </a>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>© 2026 Naema Khalif · Built with curiosity.</p>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="logo" href="#home">NK<span>.</span></a>
+            <p>© 2026 Naema Khalif · Built with curiosity.</p>
+            <a href="#home" class="back-to-top">Back to top ↑</a>
+        </div>
     </footer>
+
 </body>
 </html>
